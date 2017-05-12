@@ -74,3 +74,4 @@ for key,val in dirs.items():
         continue
 
 print "*"*20
+print "\nall your files in %s are sorted/n/n/n"%path
