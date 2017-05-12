@@ -74,4 +74,3 @@ for key,val in dirs.items():
         continue
 
 print "*"*20
-print "\n\n\n\t all your files in %s are sorted"%path
