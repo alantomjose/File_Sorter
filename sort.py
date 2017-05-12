@@ -1,5 +1,6 @@
 
 #Program to sort contents of a fle into corresponding directories
+# to use this run : python2 sort.py
 
 import os
 import shutil
@@ -7,8 +8,7 @@ import shutil
 
 
 path=raw_input("Give path >")
-#path="/home/alan/Desktop"
-#path="/home/alan/Downloads"
+
 if not os.path.exists(path):
     print "%s does not exist \n Exiting...."%path
     exit(0)
